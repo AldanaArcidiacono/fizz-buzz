@@ -29,15 +29,6 @@ const addMain = () => {
 }
 addMain();
 
-// const addInput = () => {
-//     const currentInput = document.getElementById("input");
-//     const createInput = document.createElement("input");
-//     createInput.setAttribute("type", "text");
-//     createInput.setAttribute("placeholder", "Introduce un número!");
-//     document.body.insertBefore(createInput, currentInput);
-// }
-// addInput();
-
 const addFooter = () => {
     const currentFooter = document.getElementById("footer");
     const createfooter = document.createElement("footer");
@@ -130,17 +121,6 @@ const body = document.querySelector("body");
 const userInput = document.querySelector("input");
 const reveal = document.querySelector("p");
 const inputButton = document.querySelector("button");
-
-const arrayNumbers = [];
-
-const createArray = () => {
-    let number = 1;
-    for(let i = 0; i < 100; i++){
-        arrayNumbers.push(number);
-        number++;
-    }
-}
-createArray();
 
 const printNumbers = () => {
     if (userInput.value % 3 === 0 && userInput.value % 5 === 0){
